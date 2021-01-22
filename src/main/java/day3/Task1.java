@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true) {
+        boolean isCancel = true;
+        while (isCancel) {
             String country = scanner.next();
-            if (country.equals("Stop")) {
-                break;
-            }
             switch (country) {
+                case "Stop":
+                    isCancel = false;
+                    break;
                 case "Ростов":
                 case "Москва":
                 case "Владивосток":
