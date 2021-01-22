@@ -21,10 +21,15 @@ public class Task1 {
                 case "Турин":
                     System.out.println("Италия");
                     break;
-                case "Ливерпуль":
-                case "Манчестер":
+                case "Берлин":
+                case "Мюнхен":
                 case "Кельн":
                     System.out.println("Германия");
+                    break;
+                case "Ливерпуль":
+                case "Манчестер":
+                case "Лондон":
+                    System.out.println("Англия");
                     break;
                 default:
                     System.out.println("Неизвестная страна");
