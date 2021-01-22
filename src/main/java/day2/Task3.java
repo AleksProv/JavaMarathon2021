@@ -20,8 +20,7 @@ public class Task3 {
             System.out.println("Некорректный ввод");
         } else {
             a++;
-            b--;
-            while (a <= b) {
+            while (a < b) {
                 if (a % 5 == 0 && a % 10 != 0) {
                     System.out.print(a + " ");
                 }
